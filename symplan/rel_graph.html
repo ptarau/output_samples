@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1200px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "green", "id": "Economic inefficiency", "label": "Economic inefficiency", "mass": 4, "shape": "box"}, {"color": "green", "id": "policies", "label": "policies", "mass": 4, "shape": "box"}, {"color": "green", "id": "Delayed product deliveries", "label": "Delayed product deliveries", "mass": 4, "shape": "box"}, {"color": "green", "id": "Goods", "label": "Goods", "mass": 4, "shape": "box"}, {"color": "green", "id": "International relations", "label": "International relations", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic indicator", "label": "Economic indicator", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic decline", "label": "Economic decline", "mass": 4, "shape": "box"}, {"color": "green", "id": "Trade partner retaliation", "label": "Trade partner retaliation", "mass": 4, "shape": "box"}, {"color": "green", "id": "Recession", "label": "Recession", "mass": 4, "shape": "box"}, {"color": "green", "id": "Competitive disadvantage", "label": "Competitive disadvantage", "mass": 4, "shape": "box"}, {"color": "green", "id": "Reduced global competitiveness", "label": "Reduced global competitiveness", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic condition", "label": "Economic condition", "mass": 4, "shape": "box"}, {"color": "green", "id": "Decreased economic growth", "label": "Decreased economic growth", "mass": 4, "shape": "box"}, {"color": "green", "id": "Export market loss", "label": "Export market loss", "mass": 4, "shape": "box"}, {"color": "green", "id": "Retaliation", "label": "Retaliation", "mass": 4, "shape": "box"}, {"color": "green", "id": "Progress", "label": "Progress", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic downturn", "label": "Economic downturn", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economics", "label": "Economics", "mass": 4, "shape": "box"}, {"color": "green", "id": "Downturn", "label": "Downturn", "mass": 4, "shape": "box"}, {"color": "green", "id": "Job losses", "label": "Job losses", "mass": 4, "shape": "box"}, {"color": "green", "id": "Stifled innovation", "label": "Stifled innovation", "mass": 4, "shape": "box"}, {"color": "green", "id": "Limited product variety", "label": "Limited product variety", "mass": 4, "shape": "box"}, {"color": "green", "id": "tariffs are good", "label": "tariffs are good", "mass": 4, "shape": "box"}, {"color": "green", "id": "trade policy", "label": "trade policy", "mass": 4, "shape": "box"}, {"color": "green", "id": "Reduced consumer choice", "label": "Reduced consumer choice", "mass": 4, "shape": "box"}, {"color": "green", "id": "Reduced consumer spending", "label": "Reduced consumer spending", "mass": 4, "shape": "box"}, {"color": "green", "id": "Supply chain disruptions", "label": "Supply chain disruptions", "mass": 4, "shape": "box"}, {"color": "green", "id": "Innovation stagnation", "label": "Innovation stagnation", "mass": 4, "shape": "box"}, {"color": "green", "id": "Increased unemployment rates", "label": "Increased unemployment rates", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic growth slowdown", "label": "Economic growth slowdown", "mass": 4, "shape": "box"}, {"color": "green", "id": "Higher consumer prices", "label": "Higher consumer prices", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic phenomenon", "label": "Economic phenomenon", "mass": 4, "shape": "box"}, {"color": "green", "id": "Domestic market complacency", "label": "Domestic market complacency", "mass": 4, "shape": "box"}, {"color": "green", "id": "Global trade tensions", "label": "Global trade tensions", "mass": 4, "shape": "box"}, {"color": "green", "id": "Unemployment", "label": "Unemployment", "mass": 4, "shape": "box"}, {"color": "green", "id": "Delayed product availability", "label": "Delayed product availability", "mass": 4, "shape": "box"}, {"color": "green", "id": "Lower economic growth", "label": "Lower economic growth", "mass": 4, "shape": "box"}, {"color": "green", "id": "Reduced export competitiveness", "label": "Reduced export competitiveness", "mass": 4, "shape": "box"}, {"color": "green", "id": "Economic policy", "label": "Economic policy", "mass": 4, "shape": "box"}, {"color": "green", "id": "Limited market access", "label": "Limited market access", "mass": 4, "shape": "box"}, {"color": "green", "id": "Discontent", "label": "Discontent", "mass": 4, "shape": "box"}, {"color": "green", "id": "Disadvantage", "label": "Disadvantage", "mass": 4, "shape": "box"}, {"color": "green", "id": "Obstruction", "label": "Obstruction", "mass": 4, "shape": "box"}, {"color": "green", "id": "Inefficiency", "label": "Inefficiency", "mass": 4, "shape": "box"}, {"color": "green", "id": "Trade disadvantage", "label": "Trade disadvantage", "mass": 4, "shape": "box"}, {"color": "green", "id": "Trade issue", "label": "Trade issue", "mass": 4, "shape": "box"}, {"color": "green", "id": "tariffs balance budget", "label": "tariffs balance budget", "mass": 4, "shape": "box"}, {"color": "green", "id": "Logistics", "label": "Logistics", "mass": 4, "shape": "box"}, {"color": "green", "id": "tariffs add jobs", "label": "tariffs add jobs", "mass": 4, "shape": "box"}, {"color": "green", "id": "Trade barrier", "label": "Trade barrier", "mass": 4, "shape": "box"}, {"color": "green", "id": "Supply chain issue", "label": "Supply chain issue", "mass": 4, "shape": "box"}, {"color": "green", "id": "Reduced market competition", "label": "Reduced market competition", "mass": 4, "shape": "box"}, {"color": "green", "id": "Limitation", "label": "Limitation", "mass": 4, "shape": "box"}, {"color": "green", "id": "Increased consumer prices", "label": "Increased consumer prices", "mass": 4, "shape": "box"}, {"color": "green", "id": "economics", "label": "economics", "mass": 4, "shape": "box"}, {"color": "green", "id": "Prices", "label": "Prices", "mass": 4, "shape": "box"}, {"color": "green", "id": "Consumer dissatisfaction", "label": "Consumer dissatisfaction", "mass": 4, "shape": "box"}, {"color": "green", "id": "Costs", "label": "Costs", "mass": 4, "shape": "box"}, {"color": "green", "id": "Increased production costs", "label": "Increased production costs", "mass": 4, "shape": "box"}, {"color": "green", "id": "Inflation", "label": "Inflation", "mass": 4, "shape": "box"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "blue", "from": "Competitive disadvantage", "label": "is", "to": "Disadvantage"}, {"arrows": "to", "color": "blue", "from": "Consumer dissatisfaction", "label": "is", "to": "Discontent"}, {"arrows": "to", "color": "blue", "from": "Decreased economic growth", "label": "is", "to": "Economic phenomenon"}, {"arrows": "to", "color": "blue", "from": "Delayed product availability", "label": "is", "to": "Supply chain issue"}, {"arrows": "to", "color": "blue", "from": "Delayed product deliveries", "label": "is", "to": "Logistics"}, {"arrows": "to", "color": "blue", "from": "Domestic market complacency", "label": "is", "to": "Economics"}, {"arrows": "to", "color": "blue", "from": "Domestic market complacency", "label": ":", "to": "Reduced global competitiveness"}, {"arrows": "to", "color": "blue", "from": "Domestic market complacency", "label": ":", "to": "Innovation stagnation"}, {"arrows": "to", "color": "blue", "from": "Economic decline", "label": "is", "to": "Downturn"}, {"arrows": "to", "color": "blue", "from": "Economic downturn", "label": "is", "to": "Recession"}, {"arrows": "to", "color": "blue", "from": "Economic growth slowdown", "label": "is", "to": "Economic phenomenon"}, {"arrows": "to", "color": "blue", "from": "Economic growth slowdown", "label": ":", "to": "Increased unemployment rates"}, {"arrows": "to", "color": "blue", "from": "Economic growth slowdown", "label": ":", "to": "Reduced consumer spending"}, {"arrows": "to", "color": "blue", "from": "Economic inefficiency", "label": "is", "to": "Inefficiency"}, {"arrows": "to", "color": "blue", "from": "Economic inefficiency", "label": ":", "to": "Higher consumer prices"}, {"arrows": "to", "color": "blue", "from": "Economic inefficiency", "label": ":", "to": "Reduced market competition"}, {"arrows": "to", "color": "blue", "from": "Export market loss", "label": "is", "to": "Trade issue"}, {"arrows": "to", "color": "blue", "from": "Global trade tensions", "label": "is", "to": "International relations"}, {"arrows": "to", "color": "blue", "from": "Global trade tensions", "label": ":", "to": "Increased consumer prices"}, {"arrows": "to", "color": "blue", "from": "Global trade tensions", "label": ":", "to": "Supply chain disruptions"}, {"arrows": "to", "color": "blue", "from": "Higher consumer prices", "label": "is", "to": "Prices"}, {"arrows": "to", "color": "blue", "from": "Increased consumer prices", "label": "is", "to": "Inflation"}, {"arrows": "to", "color": "blue", "from": "Increased consumer prices", "label": ":", "to": "Reduced consumer spending"}, {"arrows": "to", "color": "blue", "from": "Increased consumer prices", "label": ":", "to": "Lower economic growth"}, {"arrows": "to", "color": "blue", "from": "Increased production costs", "label": "is", "to": "Costs"}, {"arrows": "to", "color": "blue", "from": "Increased unemployment rates", "label": "is", "to": "Economic indicator"}, {"arrows": "to", "color": "blue", "from": "Innovation stagnation", "label": "is", "to": "Progress"}, {"arrows": "to", "color": "blue", "from": "Innovation stagnation", "label": ":", "to": "Economic decline"}, {"arrows": "to", "color": "blue", "from": "Innovation stagnation", "label": ":", "to": "Competitive disadvantage"}, {"arrows": "to", "color": "blue", "from": "Job losses", "label": "is", "to": "Unemployment"}, {"arrows": "to", "color": "blue", "from": "Limited market access", "label": "is", "to": "Trade barrier"}, {"arrows": "to", "color": "blue", "from": "Limited market access", "label": ":", "to": "Reduced consumer choice"}, {"arrows": "to", "color": "blue", "from": "Limited market access", "label": ":", "to": "Decreased economic growth"}, {"arrows": "to", "color": "blue", "from": "Limited product variety", "label": "is", "to": "Goods"}, {"arrows": "to", "color": "blue", "from": "Limited product variety", "label": ":", "to": "Consumer dissatisfaction"}, {"arrows": "to", "color": "blue", "from": "Limited product variety", "label": ":", "to": "Stifled innovation"}, {"arrows": "to", "color": "blue", "from": "Lower economic growth", "label": "is", "to": "Economic condition"}, {"arrows": "to", "color": "blue", "from": "Reduced consumer choice", "label": "is", "to": "Limitation"}, {"arrows": "to", "color": "blue", "from": "Reduced consumer spending", "label": "is", "to": "Economics"}, {"arrows": "to", "color": "blue", "from": "Reduced export competitiveness", "label": "is", "to": "Trade disadvantage"}, {"arrows": "to", "color": "blue", "from": "Reduced export competitiveness", "label": ":", "to": "Job losses"}, {"arrows": "to", "color": "blue", "from": "Reduced export competitiveness", "label": ":", "to": "Economic downturn"}, {"arrows": "to", "color": "blue", "from": "Reduced global competitiveness", "label": "is", "to": "Disadvantage"}, {"arrows": "to", "color": "blue", "from": "Reduced market competition", "label": "is", "to": "Economic policy"}, {"arrows": "to", "color": "blue", "from": "Stifled innovation", "label": "is", "to": "Obstruction"}, {"arrows": "to", "color": "blue", "from": "Supply chain disruptions", "label": "is", "to": "Logistics"}, {"arrows": "to", "color": "blue", "from": "Supply chain disruptions", "label": ":", "to": "Increased production costs"}, {"arrows": "to", "color": "blue", "from": "Supply chain disruptions", "label": ":", "to": "Delayed product deliveries"}, {"arrows": "to", "color": "blue", "from": "Supply chain disruptions", "label": ":", "to": "Delayed product availability"}, {"arrows": "to", "color": "blue", "from": "Trade partner retaliation", "label": "is", "to": "Retaliation"}, {"arrows": "to", "color": "blue", "from": "Trade partner retaliation", "label": ":", "to": "Increased consumer prices"}, {"arrows": "to", "color": "blue", "from": "Trade partner retaliation", "label": ":", "to": "Export market loss"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": "is", "to": "policies"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Increased consumer prices"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Trade partner retaliation"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Supply chain disruptions"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Limited product variety"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Economic inefficiency"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Global trade tensions"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Domestic market complacency"}, {"arrows": "to", "color": "blue", "from": "tariffs add jobs", "label": ":", "to": "Innovation stagnation"}, {"arrows": "to", "color": "blue", "from": "tariffs are good", "label": "is", "to": "trade policy"}, {"arrows": "to", "color": "blue", "from": "tariffs are good", "label": ":", "to": "tariffs add jobs"}, {"arrows": "to", "color": "blue", "from": "tariffs are good", "label": ":", "to": "tariffs balance budget"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": "is", "to": "economics"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": ":", "to": "Increased consumer prices"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": ":", "to": "Trade partner retaliation"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": ":", "to": "Limited market access"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": ":", "to": "Supply chain disruptions"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": ":", "to": "Economic growth slowdown"}, {"arrows": "to", "color": "blue", "from": "tariffs balance budget", "label": ":", "to": "Reduced export competitiveness"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

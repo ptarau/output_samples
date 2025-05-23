@@ -1,0 +1,52 @@
+% CLAUSES:
+'artificial general intelligence' :-
+    'robotisation of manufacturing'.
+'artificial general intelligence' :-
+    'human control and cooperation with AGI',
+    'novel scientific discoveries'.
+'robotisation of manufacturing' :-
+    'Automated production systems'.
+'robotisation of manufacturing' :-
+    'Intelligent assembly lines'.
+'human control and cooperation with AGI' :-
+    'Collaborative governance frameworks'.
+'human control and cooperation with AGI' :-
+    'Ethical alignment protocols'.
+'novel scientific discoveries' :-
+    'Interdisciplinary research collaboration'.
+'novel scientific discoveries' :-
+    'Advanced computational modeling'.
+'Automated production systems' :-
+    'Advanced robotics integration',
+    'Smart factory implementation'.
+'Intelligent assembly lines' :-
+    'Advanced machine learning',
+    'Integrated robotics systems',
+    'Real-time data analytics',
+    'Automated quality control'.
+'Collaborative governance frameworks' :-
+    'Multilateral policy development',
+    'Cross-sector stakeholder engagement'.
+'Ethical alignment protocols' :-
+    'Value alignment frameworks',
+    'Transparent decision-making systems'.
+'Interdisciplinary research collaboration' :-
+    'Cross-disciplinary team building',
+    'Integrated knowledge sharing'.
+'Advanced computational modeling' :-
+    'Algorithmic optimization techniques',
+    'High-performance computing infrastructure'.
+'Advanced robotics integration'.
+'Smart factory implementation'.
+'Advanced machine learning'.
+'Integrated robotics systems'.
+'Real-time data analytics'.
+'Automated quality control'.
+'Multilateral policy development'.
+'Cross-sector stakeholder engagement'.
+'Value alignment frameworks'.
+'Transparent decision-making systems'.
+'Cross-disciplinary team building'.
+'Integrated knowledge sharing'.
+'Algorithmic optimization techniques'.
+'High-performance computing infrastructure'.

@@ -1,0 +1,1598 @@
+{
+  "artificial general intelligence": [
+    [
+      "robotisation of manufacturing"
+    ],
+    [
+      "human control and cooperation with AGI",
+      "novel scientific discoveries"
+    ]
+  ],
+  "robotisation of manufacturing": [
+    [
+      "Job displacement crisis"
+    ],
+    [
+      "Economic inequality surge"
+    ]
+  ],
+  "human control and cooperation with AGI": [
+    [
+      "Ethical decision dilemmas"
+    ],
+    [
+      "Loss of human autonomy"
+    ],
+    [
+      "Unpredictable power dynamics"
+    ],
+    [
+      "Societal dependency risks"
+    ]
+  ],
+  "novel scientific discoveries": [
+    [
+      "Ethical dilemmas"
+    ],
+    [
+      "Unintended consequences"
+    ],
+    [
+      "Social disruption"
+    ],
+    [
+      "Economic inequality"
+    ],
+    [
+      "Environmental degradation"
+    ],
+    [
+      "Privacy invasion"
+    ],
+    [
+      "Job displacement"
+    ],
+    [
+      "Cultural erosion"
+    ]
+  ],
+  "Job displacement crisis": [
+    [
+      "Economic inequality surge",
+      "Social unrest escalation"
+    ]
+  ],
+  "Economic inequality surge": [
+    [
+      "Wealth concentration"
+    ],
+    [
+      "Social mobility decline"
+    ],
+    [
+      "Poverty rate increase"
+    ],
+    [
+      "Wage disparity expansion"
+    ],
+    [
+      "Widening wealth gap",
+      "Social unrest escalation"
+    ]
+  ],
+  "Wealth concentration": [
+    [
+      "Social unrest",
+      "Political instability"
+    ]
+  ],
+  "Social mobility decline": [
+    [
+      "Widening wealth gap",
+      "Educational access disparity"
+    ]
+  ],
+  "Poverty rate increase": [
+    [
+      "Social unrest escalation",
+      "Health care access reduction"
+    ]
+  ],
+  "Wage disparity expansion": [
+    [
+      "Social unrest",
+      "Increased poverty rates"
+    ]
+  ],
+  "Social unrest escalation": [
+    [
+      "Economic instability"
+    ],
+    [
+      "Political polarization"
+    ],
+    [
+      "Community fragmentation"
+    ],
+    [
+      "Public safety concerns"
+    ],
+    [
+      "Political instability"
+    ],
+    [
+      "Economic disruption"
+    ],
+    [
+      "Community fragmentation"
+    ],
+    [
+      "Public safety threats"
+    ],
+    []
+  ],
+  "Economic instability": [
+    [
+      "Increased poverty rates",
+      "Widening wealth gap"
+    ],
+    [
+      "Increased unemployment rates",
+      "Widening wealth gap"
+    ],
+    [
+      "Increased unemployment rates",
+      "Widening wealth gap"
+    ],
+    [
+      "Increased unemployment rates"
+    ],
+    [
+      "Widening wealth gap"
+    ],
+    [
+      "Increased unemployment rates"
+    ],
+    [
+      "Widening wealth gap"
+    ],
+    [
+      "Decline in consumer confidence"
+    ],
+    [
+      "Business investment reduction"
+    ],
+    [
+      "Increased unemployment rates"
+    ],
+    [
+      "Decreased consumer confidence"
+    ],
+    [
+      "Rising poverty levels"
+    ],
+    [
+      "Business investment decline"
+    ],
+    []
+  ],
+  "Political polarization": [
+    [
+      "Increased societal division",
+      "Erosion of democratic norms"
+    ],
+    [
+      "Social fragmentation",
+      "Increased misinformation"
+    ],
+    [
+      "Increased societal division",
+      "Erosion of democratic norms"
+    ]
+  ],
+  "Community fragmentation": [
+    [
+      "Increased social isolation",
+      "Decline in local engagement"
+    ],
+    [
+      "Increased social isolation",
+      "Decline in civic engagement"
+    ],
+    [
+      "Increased social isolation",
+      "Weakened communal ties"
+    ]
+  ],
+  "Public safety concerns": [
+    [
+      "Increased crime rates",
+      "Community trust erosion"
+    ]
+  ],
+  "Widening wealth gap": [
+    [
+      "Social unrest"
+    ],
+    [
+      "Decreased social mobility"
+    ],
+    [
+      "Political instability"
+    ],
+    [
+      "Reduced consumer spending"
+    ],
+    [
+      "Social unrest",
+      "Increased poverty"
+    ],
+    [
+      "Increased social unrest",
+      "Reduced economic mobility"
+    ],
+    [
+      "Increased social unrest",
+      "Limited economic mobility"
+    ],
+    []
+  ],
+  "Social unrest": [
+    [
+      "Political instability",
+      "Economic disruption"
+    ],
+    [
+      "Economic instability"
+    ],
+    [
+      "Political polarization"
+    ],
+    [
+      "Community fragmentation"
+    ],
+    [
+      "Increased crime rates"
+    ],
+    []
+  ],
+  "Decreased social mobility": [
+    [
+      "Entrenched class divisions",
+      "Limited economic opportunities"
+    ]
+  ],
+  "Political instability": [
+    [
+      "Social unrest",
+      "Economic downturn"
+    ],
+    [
+      "Economic downturn",
+      "Social fragmentation"
+    ],
+    []
+  ],
+  "Reduced consumer spending": [
+    [
+      "Business revenue decline",
+      "Job market contraction"
+    ]
+  ],
+  "Economic disruption": [
+    [
+      "Job market instability",
+      "Wealth distribution imbalance"
+    ]
+  ],
+  "Public safety threats": [
+    [
+      "Community trust erosion",
+      "Emergency response delays"
+    ]
+  ],
+  "Ethical decision dilemmas": [
+    [
+      "Moral ambiguity conflicts",
+      "Unintended ethical outcomes"
+    ]
+  ],
+  "Moral ambiguity conflicts": [
+    [
+      "Unintended ethical breaches"
+    ],
+    [
+      "Conflicting moral standards"
+    ],
+    [
+      "Unresolved ethical tensions"
+    ],
+    [
+      "Ethical decision paralysis"
+    ]
+  ],
+  "Unintended ethical breaches": [
+    [
+      "Trust erosion",
+      "Social instability"
+    ]
+  ],
+  "Conflicting moral standards": [
+    [
+      "Ethical decision paralysis",
+      "Social trust erosion"
+    ]
+  ],
+  "Unresolved ethical tensions": [
+    [
+      "Societal trust erosion",
+      "Technological misuse risks"
+    ]
+  ],
+  "Ethical decision paralysis": [
+    [
+      "Stagnant technological progress",
+      "Increased societal distrust"
+    ]
+  ],
+  "Unintended ethical outcomes": [
+    [
+      "Biased algorithmic decisions"
+    ],
+    [
+      "Privacy invasion risks"
+    ],
+    [
+      "Societal inequality amplification"
+    ],
+    [
+      "Autonomous weapon deployment"
+    ],
+    [
+      "Manipulative information dissemination"
+    ],
+    [
+      "Accountability loopholes exploitation"
+    ]
+  ],
+  "Biased algorithmic decisions": [
+    [
+      "Discriminatory hiring practices",
+      "Unequal access to services"
+    ]
+  ],
+  "Privacy invasion risks": [
+    [
+      "Identity theft",
+      "Data misuse"
+    ]
+  ],
+  "Societal inequality amplification": [
+    [
+      "Wealth disparity increase",
+      "Access to resources imbalance"
+    ]
+  ],
+  "Autonomous weapon deployment": [
+    [
+      "Escalated global conflict",
+      "Civilian casualty risk"
+    ]
+  ],
+  "Manipulative information dissemination": [
+    [
+      "Public trust erosion",
+      "Misinformation spread"
+    ]
+  ],
+  "Accountability loopholes exploitation": [
+    [
+      "Regulatory oversight failure",
+      "Ethical responsibility evasion"
+    ]
+  ],
+  "Loss of human autonomy": [
+    [
+      "Erosion of personal freedoms",
+      "Diminished decision-making capacity"
+    ],
+    [
+      "Erosion of personal freedom"
+    ],
+    [
+      "Diminished decision-making capacity"
+    ],
+    [
+      "Decreased individual agency"
+    ],
+    [
+      "Compromised societal resilience"
+    ]
+  ],
+  "Erosion of personal freedoms": [
+    [
+      "Increased government surveillance"
+    ],
+    [
+      "Restricted freedom of speech"
+    ],
+    [
+      "Limited access to information"
+    ],
+    [
+      "Diminished privacy rights"
+    ]
+  ],
+  "Increased government surveillance": [
+    [
+      "Privacy invasion",
+      "Civil liberties erosion"
+    ]
+  ],
+  "Restricted freedom of speech": [
+    [
+      "Censorship of ideas",
+      "Suppression of dissent"
+    ]
+  ],
+  "Limited access to information": [
+    [
+      "Knowledge inequality",
+      "Stifled innovation"
+    ]
+  ],
+  "Diminished privacy rights": [
+    [
+      "Increased surveillance state",
+      "Unauthorized data access"
+    ]
+  ],
+  "Diminished decision-making capacity": [
+    [
+      "Erosion of critical thinking"
+    ],
+    [
+      "Decline in personal agency"
+    ],
+    [
+      "Reduced problem-solving skills"
+    ],
+    [
+      "Impaired judgment abilities"
+    ],
+    [
+      "Erosion of critical thinking",
+      "Reduced personal agency"
+    ]
+  ],
+  "Erosion of critical thinking": [
+    [
+      "Groupthink mentality",
+      "Intellectual complacency"
+    ],
+    [
+      "Spread of misinformation"
+    ],
+    [
+      "Decline in innovation"
+    ],
+    [
+      "Poor decision-making"
+    ],
+    [
+      "Vulnerability to manipulation"
+    ],
+    [
+      "Reduced problem-solving skills"
+    ],
+    [
+      "Loss of intellectual curiosity"
+    ],
+    []
+  ],
+  "Decline in personal agency": [
+    [
+      "Erosion of individual rights",
+      "Reduced personal empowerment"
+    ]
+  ],
+  "Reduced problem-solving skills": [
+    [
+      "Increased dependency on technology",
+      "Decline in critical thinking"
+    ],
+    [
+      "Increased reliance on technology",
+      "Diminished cognitive abilities"
+    ]
+  ],
+  "Impaired judgment abilities": [
+    [
+      "Increased error rates",
+      "Poor decision outcomes"
+    ]
+  ],
+  "Unpredictable power dynamics": [
+    [
+      "Erosion of trust",
+      "Societal instability"
+    ]
+  ],
+  "Erosion of trust": [
+    [
+      "Breakdown of communication"
+    ],
+    [
+      "Increased societal tension"
+    ],
+    [
+      "Economic instability"
+    ],
+    [
+      "Political polarization"
+    ],
+    [
+      "Social fragmentation"
+    ]
+  ],
+  "Breakdown of communication": [
+    [
+      "Increased misunderstanding",
+      "Escalating conflicts"
+    ]
+  ],
+  "Increased societal tension": [
+    [
+      "Social fragmentation",
+      "Heightened political polarization"
+    ]
+  ],
+  "Social fragmentation": [
+    [
+      "Increased societal division",
+      "Breakdown of community bonds"
+    ],
+    [
+      "Increased political polarization",
+      "Economic disparity escalation"
+    ],
+    []
+  ],
+  "Societal instability": [
+    [
+      "Economic collapse"
+    ],
+    [
+      "Social fragmentation"
+    ],
+    [
+      "Political unrest"
+    ],
+    [
+      "Cultural disintegration"
+    ],
+    []
+  ],
+  "Economic collapse": [
+    [
+      "Mass unemployment",
+      "Widespread poverty"
+    ]
+  ],
+  "Political unrest": [
+    [
+      "Economic downturn",
+      "Social fragmentation"
+    ]
+  ],
+  "Cultural disintegration": [
+    [
+      "Erosion of traditions",
+      "Loss of social cohesion"
+    ]
+  ],
+  "Societal dependency risks": [
+    [
+      "Erosion of critical thinking",
+      "Loss of human autonomy"
+    ]
+  ],
+  "Spread of misinformation": [
+    [
+      "Public trust erosion",
+      "Social division increase"
+    ]
+  ],
+  "Decline in innovation": [
+    [
+      "Stagnant economic growth",
+      "Reduced technological advancement"
+    ]
+  ],
+  "Poor decision-making": [
+    [
+      "Economic instability",
+      "Environmental degradation"
+    ]
+  ],
+  "Vulnerability to manipulation": [
+    [
+      "Misinformation spread",
+      "Public opinion distortion"
+    ]
+  ],
+  "Loss of intellectual curiosity": [
+    [
+      "Stagnant innovation",
+      "Cultural regression"
+    ]
+  ],
+  "Erosion of personal freedom": [
+    [
+      "Increased surveillance state",
+      "Restricted individual rights"
+    ]
+  ],
+  "Decreased individual agency": [
+    [
+      "Erosion of personal freedom",
+      "Diminished decision-making power"
+    ]
+  ],
+  "Compromised societal resilience": [
+    [
+      "Increased systemic vulnerability",
+      "Diminished adaptive capacity"
+    ]
+  ],
+  "Ethical dilemmas": [
+    [
+      "Moral ambiguity",
+      "Social unrest"
+    ],
+    [
+      "Moral ambiguity"
+    ],
+    [
+      "Decision paralysis"
+    ],
+    [
+      "Value conflicts"
+    ],
+    [
+      "Social discord"
+    ]
+  ],
+  "Moral ambiguity": [
+    [
+      "Ethical confusion"
+    ],
+    [
+      "Value disorientation"
+    ],
+    [
+      "Decision paralysis"
+    ],
+    [
+      "Trust erosion"
+    ],
+    [
+      "Ethical erosion",
+      "Trust deficit"
+    ]
+  ],
+  "Ethical confusion": [
+    [
+      "Moral disorientation",
+      "Decision-making paralysis"
+    ]
+  ],
+  "Value disorientation": [
+    [
+      "Societal instability",
+      "Cultural erosion"
+    ]
+  ],
+  "Decision paralysis": [
+    [
+      "Stagnant innovation",
+      "Missed opportunities"
+    ],
+    [
+      "Missed opportunities",
+      "Stagnant progress"
+    ]
+  ],
+  "Trust erosion": [
+    [
+      "Social fragmentation",
+      "Economic instability"
+    ]
+  ],
+  "Increased crime rates": [
+    [
+      "Community destabilization",
+      "Economic downturn"
+    ]
+  ],
+  "Unintended consequences": [
+    [
+      "Ethical dilemmas",
+      "Economic instability"
+    ]
+  ],
+  "Value conflicts": [
+    [
+      "Social fragmentation",
+      "Cultural polarization"
+    ]
+  ],
+  "Social discord": [
+    [
+      "Increased societal tension",
+      "Erosion of community trust"
+    ]
+  ],
+  "Increased unemployment rates": [
+    [
+      "Social unrest",
+      "Mental health decline"
+    ],
+    [
+      "Economic hardship",
+      "Social unrest"
+    ],
+    [
+      "Social unrest",
+      "Economic inequality"
+    ],
+    []
+  ],
+  "Social disruption": [
+    [
+      "Economic instability",
+      "Cultural fragmentation"
+    ]
+  ],
+  "Decline in consumer confidence": [
+    [
+      "Reduced retail sales",
+      "Decreased economic growth"
+    ]
+  ],
+  "Business investment reduction": [
+    [
+      "Job market contraction",
+      "Innovation stagnation"
+    ]
+  ],
+  "Cultural fragmentation": [
+    [
+      "Increased societal division"
+    ],
+    [
+      "Loss of shared values"
+    ],
+    [
+      "Erosion of community bonds"
+    ],
+    [
+      "Decline in cultural cohesion"
+    ]
+  ],
+  "Increased societal division": [
+    [
+      "Heightened political polarization",
+      "Erosion of social cohesion"
+    ]
+  ],
+  "Loss of shared values": [
+    [
+      "Increased societal division",
+      "Erosion of community trust"
+    ]
+  ],
+  "Erosion of community bonds": [
+    [
+      "Increased social isolation",
+      "Decline in civic engagement"
+    ]
+  ],
+  "Decline in cultural cohesion": [
+    [
+      "Increased societal division",
+      "Erosion of shared values"
+    ]
+  ],
+  "Economic inequality": [
+    [
+      "Limited access to education",
+      "Health care disparities"
+    ]
+  ],
+  "Limited access to education": [
+    [
+      "Widening skills gap"
+    ],
+    [
+      "Stagnant economic growth"
+    ],
+    [
+      "Increased poverty rates"
+    ],
+    [
+      "Social mobility barriers"
+    ]
+  ],
+  "Widening skills gap": [
+    [
+      "Increased unemployment rates",
+      "Social mobility decline"
+    ]
+  ],
+  "Stagnant economic growth": [
+    [
+      "Increased unemployment rates",
+      "Reduced public services"
+    ]
+  ],
+  "Increased poverty rates": [
+    [
+      "Health care disparities",
+      "Social instability"
+    ]
+  ],
+  "Social mobility barriers": [
+    [
+      "Widening wealth gap",
+      "Educational disparities"
+    ]
+  ],
+  "Health care disparities": [
+    [
+      "Increased mortality rates"
+    ],
+    [
+      "Limited access to treatment"
+    ],
+    [
+      "Worsened chronic conditions"
+    ],
+    [
+      "Reduced life expectancy"
+    ],
+    []
+  ],
+  "Increased mortality rates": [
+    [
+      "Population decline",
+      "Workforce shortages"
+    ]
+  ],
+  "Limited access to treatment": [
+    [
+      "Worsening health outcomes",
+      "Increased mortality rates"
+    ]
+  ],
+  "Worsened chronic conditions": [
+    [
+      "Increased healthcare costs",
+      "Reduced workforce productivity"
+    ]
+  ],
+  "Reduced life expectancy": [
+    [
+      "Population decline",
+      "Workforce shortage"
+    ]
+  ],
+  "Environmental degradation": [
+    [
+      "Biodiversity loss",
+      "Climate instability"
+    ]
+  ],
+  "Biodiversity loss": [
+    [
+      "Ecosystem instability"
+    ],
+    [
+      "Reduced genetic diversity"
+    ],
+    [
+      "Loss of ecosystem services"
+    ],
+    [
+      "Decline in food security"
+    ]
+  ],
+  "Ecosystem instability": [
+    [
+      "Species extinction",
+      "Food chain disruption"
+    ]
+  ],
+  "Reduced genetic diversity": [
+    [
+      "Increased disease susceptibility",
+      "Reduced adaptive capacity"
+    ]
+  ],
+  "Loss of ecosystem services": [
+    [
+      "Reduced agricultural productivity",
+      "Increased natural disasters"
+    ]
+  ],
+  "Decline in food security": [
+    [
+      "Increased malnutrition rates",
+      "Social unrest escalation"
+    ]
+  ],
+  "Climate instability": [
+    [
+      "Increased natural disasters"
+    ],
+    [
+      "Food supply disruptions"
+    ],
+    [
+      "Rising sea levels"
+    ],
+    [
+      "Loss of biodiversity"
+    ]
+  ],
+  "Increased natural disasters": [
+    [
+      "Economic instability",
+      "Humanitarian crises"
+    ]
+  ],
+  "Food supply disruptions": [
+    [
+      "Increased food prices",
+      "Nutritional deficiencies"
+    ]
+  ],
+  "Rising sea levels": [
+    [
+      "Coastal city flooding",
+      "Habitat loss"
+    ]
+  ],
+  "Loss of biodiversity": [
+    [
+      "Ecosystem imbalance",
+      "Reduced genetic diversity"
+    ]
+  ],
+  "Privacy invasion": [
+    [
+      "Identity theft",
+      "Data exploitation"
+    ]
+  ],
+  "Identity theft": [
+    [
+      "Financial ruin"
+    ],
+    [
+      "Emotional distress"
+    ],
+    [
+      "Reputation damage"
+    ],
+    [
+      "Legal complications"
+    ],
+    []
+  ],
+  "Financial ruin": [
+    [
+      "Economic instability",
+      "Social inequality"
+    ]
+  ],
+  "Emotional distress": [
+    [
+      "Mental health decline",
+      "Relationship breakdown"
+    ]
+  ],
+  "Reputation damage": [
+    [
+      "Loss of trust",
+      "Career setbacks"
+    ]
+  ],
+  "Legal complications": [
+    [
+      "Increased litigation costs",
+      "Regulatory compliance burden"
+    ]
+  ],
+  "Data exploitation": [
+    [
+      "Identity theft risk"
+    ],
+    [
+      "Personal data breach"
+    ],
+    [
+      "Unauthorized data access"
+    ],
+    [
+      "Consumer trust erosion"
+    ]
+  ],
+  "Identity theft risk": [
+    [
+      "Financial fraud",
+      "Personal data breach"
+    ]
+  ],
+  "Personal data breach": [
+    [
+      "Identity theft",
+      "Financial fraud"
+    ]
+  ],
+  "Unauthorized data access": [
+    [
+      "Identity theft",
+      "Financial fraud"
+    ]
+  ],
+  "Consumer trust erosion": [
+    [
+      "Economic instability",
+      "Brand reputation damage"
+    ]
+  ],
+  "Job displacement": [
+    [
+      "Economic instability",
+      "Social inequality"
+    ]
+  ],
+  "Decreased consumer confidence": [
+    [
+      "Reduced retail sales",
+      "Lower investment levels"
+    ]
+  ],
+  "Rising poverty levels": [
+    [
+      "Increased crime rates",
+      "Health care disparities"
+    ]
+  ],
+  "Business investment decline": [
+    [
+      "Reduced economic growth",
+      "Increased unemployment rates"
+    ]
+  ],
+  "Social inequality": [
+    [
+      "Widening wealth gap"
+    ],
+    [
+      "Unequal access to education"
+    ],
+    [
+      "Limited healthcare access"
+    ],
+    [
+      "Disproportionate political power"
+    ],
+    []
+  ],
+  "Unequal access to education": [
+    [
+      "Widening economic gap",
+      "Limited career opportunities"
+    ]
+  ],
+  "Limited healthcare access": [
+    [
+      "Increased disease prevalence",
+      "Higher mortality rates"
+    ]
+  ],
+  "Disproportionate political power": [
+    [
+      "Policy manipulation",
+      "Wealth concentration"
+    ]
+  ],
+  "Cultural erosion": [
+    [
+      "Loss of traditional knowledge",
+      "Decline in cultural diversity"
+    ]
+  ],
+  "Loss of traditional knowledge": [
+    [
+      "Diminished cultural identity"
+    ],
+    [
+      "Erosion of indigenous practices"
+    ],
+    [
+      "Decline in oral traditions"
+    ],
+    [
+      "Loss of ancestral wisdom"
+    ],
+    [
+      "Erosion of cultural identity",
+      "Disruption of community practices"
+    ],
+    []
+  ],
+  "Diminished cultural identity": [
+    [
+      "Loss of community cohesion",
+      "Erosion of cultural heritage"
+    ]
+  ],
+  "Erosion of indigenous practices": [
+    [
+      "Cultural homogenization",
+      "Knowledge extinction"
+    ]
+  ],
+  "Decline in oral traditions": [
+    [
+      "Cultural homogenization",
+      "Knowledge fragmentation"
+    ]
+  ],
+  "Loss of ancestral wisdom": [
+    [
+      "Disconnection from heritage",
+      "Erosion of cultural identity"
+    ]
+  ],
+  "Decline in cultural diversity": [
+    [
+      "Loss of traditional knowledge"
+    ],
+    [
+      "Homogenization of cultures"
+    ],
+    [
+      "Diminished cultural heritage"
+    ],
+    [
+      "Erosion of linguistic diversity"
+    ]
+  ],
+  "Homogenization of cultures": [
+    [
+      "Loss of traditional knowledge",
+      "Diminished linguistic diversity"
+    ]
+  ],
+  "Diminished cultural heritage": [
+    [
+      "Loss of traditional knowledge",
+      "Erosion of cultural identity"
+    ]
+  ],
+  "Erosion of linguistic diversity": [
+    [
+      "Loss of cultural heritage",
+      "Diminished cognitive diversity"
+    ]
+  ],
+  "Educational access disparity": [
+    []
+  ],
+  "Health care access reduction": [
+    []
+  ],
+  "Erosion of democratic norms": [
+    []
+  ],
+  "Increased social isolation": [
+    []
+  ],
+  "Decline in local engagement": [
+    []
+  ],
+  "Community trust erosion": [
+    []
+  ],
+  "Entrenched class divisions": [
+    []
+  ],
+  "Limited economic opportunities": [
+    []
+  ],
+  "Economic downturn": [
+    []
+  ],
+  "Business revenue decline": [
+    []
+  ],
+  "Job market contraction": [
+    []
+  ],
+  "Job market instability": [
+    []
+  ],
+  "Wealth distribution imbalance": [
+    []
+  ],
+  "Decline in civic engagement": [
+    []
+  ],
+  "Emergency response delays": [
+    []
+  ],
+  "Social instability": [
+    []
+  ],
+  "Social trust erosion": [
+    []
+  ],
+  "Societal trust erosion": [
+    []
+  ],
+  "Technological misuse risks": [
+    []
+  ],
+  "Stagnant technological progress": [
+    []
+  ],
+  "Increased societal distrust": [
+    []
+  ],
+  "Discriminatory hiring practices": [
+    []
+  ],
+  "Unequal access to services": [
+    []
+  ],
+  "Data misuse": [
+    []
+  ],
+  "Wealth disparity increase": [
+    []
+  ],
+  "Access to resources imbalance": [
+    []
+  ],
+  "Escalated global conflict": [
+    []
+  ],
+  "Civilian casualty risk": [
+    []
+  ],
+  "Public trust erosion": [
+    []
+  ],
+  "Misinformation spread": [
+    []
+  ],
+  "Regulatory oversight failure": [
+    []
+  ],
+  "Ethical responsibility evasion": [
+    []
+  ],
+  "Civil liberties erosion": [
+    []
+  ],
+  "Censorship of ideas": [
+    []
+  ],
+  "Suppression of dissent": [
+    []
+  ],
+  "Knowledge inequality": [
+    []
+  ],
+  "Stifled innovation": [
+    []
+  ],
+  "Increased surveillance state": [
+    []
+  ],
+  "Groupthink mentality": [
+    []
+  ],
+  "Intellectual complacency": [
+    []
+  ],
+  "Erosion of individual rights": [
+    []
+  ],
+  "Reduced personal empowerment": [
+    []
+  ],
+  "Increased dependency on technology": [
+    []
+  ],
+  "Decline in critical thinking": [
+    []
+  ],
+  "Increased error rates": [
+    []
+  ],
+  "Poor decision outcomes": [
+    []
+  ],
+  "Increased misunderstanding": [
+    []
+  ],
+  "Escalating conflicts": [
+    []
+  ],
+  "Heightened political polarization": [
+    []
+  ],
+  "Increased misinformation": [
+    []
+  ],
+  "Breakdown of community bonds": [
+    []
+  ],
+  "Mass unemployment": [
+    []
+  ],
+  "Widespread poverty": [
+    []
+  ],
+  "Increased political polarization": [
+    []
+  ],
+  "Economic disparity escalation": [
+    []
+  ],
+  "Erosion of traditions": [
+    []
+  ],
+  "Loss of social cohesion": [
+    []
+  ],
+  "Social division increase": [
+    []
+  ],
+  "Reduced technological advancement": [
+    []
+  ],
+  "Public opinion distortion": [
+    []
+  ],
+  "Increased reliance on technology": [
+    []
+  ],
+  "Diminished cognitive abilities": [
+    []
+  ],
+  "Stagnant innovation": [
+    []
+  ],
+  "Cultural regression": [
+    []
+  ],
+  "Restricted individual rights": [
+    []
+  ],
+  "Reduced personal agency": [
+    []
+  ],
+  "Diminished decision-making power": [
+    []
+  ],
+  "Increased systemic vulnerability": [
+    []
+  ],
+  "Diminished adaptive capacity": [
+    []
+  ],
+  "Moral disorientation": [
+    []
+  ],
+  "Decision-making paralysis": [
+    []
+  ],
+  "Missed opportunities": [
+    []
+  ],
+  "Weakened communal ties": [
+    []
+  ],
+  "Community destabilization": [
+    []
+  ],
+  "Ethical erosion": [
+    []
+  ],
+  "Trust deficit": [
+    []
+  ],
+  "Stagnant progress": [
+    []
+  ],
+  "Cultural polarization": [
+    []
+  ],
+  "Erosion of community trust": [
+    []
+  ],
+  "Mental health decline": [
+    []
+  ],
+  "Increased poverty": [
+    []
+  ],
+  "Economic hardship": [
+    []
+  ],
+  "Increased social unrest": [
+    []
+  ],
+  "Reduced economic mobility": [
+    []
+  ],
+  "Reduced retail sales": [
+    []
+  ],
+  "Decreased economic growth": [
+    []
+  ],
+  "Innovation stagnation": [
+    []
+  ],
+  "Erosion of social cohesion": [
+    []
+  ],
+  "Erosion of shared values": [
+    []
+  ],
+  "Reduced public services": [
+    []
+  ],
+  "Educational disparities": [
+    []
+  ],
+  "Population decline": [
+    []
+  ],
+  "Workforce shortages": [
+    []
+  ],
+  "Worsening health outcomes": [
+    []
+  ],
+  "Increased healthcare costs": [
+    []
+  ],
+  "Reduced workforce productivity": [
+    []
+  ],
+  "Workforce shortage": [
+    []
+  ],
+  "Species extinction": [
+    []
+  ],
+  "Food chain disruption": [
+    []
+  ],
+  "Increased disease susceptibility": [
+    []
+  ],
+  "Reduced adaptive capacity": [
+    []
+  ],
+  "Reduced agricultural productivity": [
+    []
+  ],
+  "Increased malnutrition rates": [
+    []
+  ],
+  "Humanitarian crises": [
+    []
+  ],
+  "Increased food prices": [
+    []
+  ],
+  "Nutritional deficiencies": [
+    []
+  ],
+  "Coastal city flooding": [
+    []
+  ],
+  "Habitat loss": [
+    []
+  ],
+  "Ecosystem imbalance": [
+    []
+  ],
+  "Relationship breakdown": [
+    []
+  ],
+  "Loss of trust": [
+    []
+  ],
+  "Career setbacks": [
+    []
+  ],
+  "Increased litigation costs": [
+    []
+  ],
+  "Regulatory compliance burden": [
+    []
+  ],
+  "Financial fraud": [
+    []
+  ],
+  "Brand reputation damage": [
+    []
+  ],
+  "Lower investment levels": [
+    []
+  ],
+  "Reduced economic growth": [
+    []
+  ],
+  "Limited economic mobility": [
+    []
+  ],
+  "Widening economic gap": [
+    []
+  ],
+  "Limited career opportunities": [
+    []
+  ],
+  "Increased disease prevalence": [
+    []
+  ],
+  "Higher mortality rates": [
+    []
+  ],
+  "Policy manipulation": [
+    []
+  ],
+  "Loss of community cohesion": [
+    []
+  ],
+  "Erosion of cultural heritage": [
+    []
+  ],
+  "Cultural homogenization": [
+    []
+  ],
+  "Knowledge extinction": [
+    []
+  ],
+  "Knowledge fragmentation": [
+    []
+  ],
+  "Disconnection from heritage": [
+    []
+  ],
+  "Erosion of cultural identity": [
+    []
+  ],
+  "Disruption of community practices": [
+    []
+  ],
+  "Diminished linguistic diversity": [
+    []
+  ],
+  "Loss of cultural heritage": [
+    []
+  ],
+  "Diminished cognitive diversity": [
+    []
+  ]
+}

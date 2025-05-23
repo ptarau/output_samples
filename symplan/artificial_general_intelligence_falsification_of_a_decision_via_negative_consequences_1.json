@@ -1,0 +1,239 @@
+{
+  "artificial general intelligence": [
+    [
+      "robotisation of manufacturing"
+    ],
+    [
+      "human control and cooperation with AGI",
+      "novel scientific discoveries"
+    ]
+  ],
+  "robotisation of manufacturing": [
+    [
+      "Job displacement crisis"
+    ],
+    [
+      "Economic inequality surge"
+    ],
+    [
+      "Skill redundancy issue"
+    ],
+    [
+      "Workforce morale decline"
+    ]
+  ],
+  "human control and cooperation with AGI": [
+    [
+      "Ethical decision dilemmas"
+    ],
+    [
+      "Loss of human autonomy"
+    ],
+    [
+      "Unintended societal disruptions"
+    ],
+    [
+      "Economic power imbalances"
+    ]
+  ],
+  "novel scientific discoveries": [
+    [
+      "Unintended Ethical Dilemmas"
+    ],
+    [
+      "Environmental Disruptions"
+    ],
+    [
+      "Economic Inequality Expansion"
+    ],
+    [
+      "Privacy Erosion"
+    ],
+    [
+      "Cultural Homogenization"
+    ],
+    [
+      "Social Displacement"
+    ],
+    [
+      "Resource Depletion"
+    ],
+    [
+      "Technological Dependence"
+    ]
+  ],
+  "Job displacement crisis": [
+    [
+      "Economic inequality surge",
+      "Social unrest escalation"
+    ]
+  ],
+  "Economic inequality surge": [
+    [
+      "Social unrest escalation",
+      "Wealth concentration intensification"
+    ]
+  ],
+  "Skill redundancy issue": [
+    [
+      "Increased unemployment rates",
+      "Economic inequality growth"
+    ]
+  ],
+  "Workforce morale decline": [
+    [
+      "Decreased job satisfaction",
+      "Increased employee turnover"
+    ]
+  ],
+  "Ethical decision dilemmas": [
+    [
+      "Unintended moral outcomes",
+      "Societal trust erosion"
+    ]
+  ],
+  "Loss of human autonomy": [
+    [
+      "Erosion of personal freedom",
+      "Diminished societal agency"
+    ]
+  ],
+  "Unintended societal disruptions": [
+    [
+      "Economic instability",
+      "Social inequality"
+    ]
+  ],
+  "Economic power imbalances": [
+    [
+      "Wealth concentration",
+      "Social inequality"
+    ]
+  ],
+  "Unintended Ethical Dilemmas": [
+    [
+      "Biased Decision-Making",
+      "Privacy Infringements"
+    ]
+  ],
+  "Environmental Disruptions": [
+    [
+      "Biodiversity loss",
+      "Resource scarcity"
+    ]
+  ],
+  "Economic Inequality Expansion": [
+    [
+      "Social unrest escalation",
+      "Access disparity increase"
+    ]
+  ],
+  "Privacy Erosion": [
+    [
+      "Identity Theft",
+      "Surveillance State"
+    ]
+  ],
+  "Cultural Homogenization": [
+    [
+      "Loss of cultural diversity",
+      "Erosion of local traditions"
+    ]
+  ],
+  "Social Displacement": [
+    [
+      "Economic Inequality",
+      "Community Fragmentation"
+    ]
+  ],
+  "Resource Depletion": [
+    [
+      "Economic instability",
+      "Biodiversity loss"
+    ]
+  ],
+  "Technological Dependence": [
+    [
+      "Reduced human creativity",
+      "Erosion of critical thinking"
+    ]
+  ],
+  "Social unrest escalation": [
+    []
+  ],
+  "Wealth concentration intensification": [
+    []
+  ],
+  "Increased unemployment rates": [
+    []
+  ],
+  "Economic inequality growth": [
+    []
+  ],
+  "Decreased job satisfaction": [
+    []
+  ],
+  "Increased employee turnover": [
+    []
+  ],
+  "Unintended moral outcomes": [
+    []
+  ],
+  "Societal trust erosion": [
+    []
+  ],
+  "Erosion of personal freedom": [
+    []
+  ],
+  "Diminished societal agency": [
+    []
+  ],
+  "Economic instability": [
+    []
+  ],
+  "Social inequality": [
+    []
+  ],
+  "Wealth concentration": [
+    []
+  ],
+  "Biased Decision-Making": [
+    []
+  ],
+  "Privacy Infringements": [
+    []
+  ],
+  "Biodiversity loss": [
+    []
+  ],
+  "Resource scarcity": [
+    []
+  ],
+  "Access disparity increase": [
+    []
+  ],
+  "Identity Theft": [
+    []
+  ],
+  "Surveillance State": [
+    []
+  ],
+  "Loss of cultural diversity": [
+    []
+  ],
+  "Erosion of local traditions": [
+    []
+  ],
+  "Economic Inequality": [
+    []
+  ],
+  "Community Fragmentation": [
+    []
+  ],
+  "Reduced human creativity": [
+    []
+  ],
+  "Erosion of critical thinking": [
+    []
+  ]
+}

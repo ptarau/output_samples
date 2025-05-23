@@ -1,0 +1,188 @@
+{
+  "tariffs are good": [
+    [
+      "tariffs add jobs",
+      "tariffs balance budget"
+    ]
+  ],
+  "tariffs add jobs": [
+    [
+      "Increased consumer prices"
+    ],
+    [
+      "Trade partner retaliation"
+    ],
+    [
+      "Supply chain disruptions"
+    ],
+    [
+      "Limited product variety"
+    ],
+    [
+      "Economic inefficiency"
+    ],
+    [
+      "Global trade tensions"
+    ],
+    [
+      "Domestic market complacency"
+    ],
+    [
+      "Innovation stagnation"
+    ]
+  ],
+  "tariffs balance budget": [
+    [
+      "Increased consumer prices"
+    ],
+    [
+      "Trade partner retaliation"
+    ],
+    [
+      "Limited market access"
+    ],
+    [
+      "Supply chain disruptions"
+    ],
+    [
+      "Economic growth slowdown"
+    ],
+    [
+      "Reduced export competitiveness"
+    ]
+  ],
+  "Increased consumer prices": [
+    [
+      "Reduced consumer spending",
+      "Lower economic growth"
+    ],
+    [
+      "Reduced consumer spending",
+      "Lower economic growth"
+    ],
+    []
+  ],
+  "Trade partner retaliation": [
+    [
+      "Increased consumer prices",
+      "Export market loss"
+    ],
+    [
+      "Increased consumer prices",
+      "Export market loss"
+    ]
+  ],
+  "Supply chain disruptions": [
+    [
+      "Increased production costs",
+      "Delayed product deliveries"
+    ],
+    [
+      "Increased production costs",
+      "Delayed product availability"
+    ],
+    []
+  ],
+  "Limited product variety": [
+    [
+      "Consumer dissatisfaction",
+      "Stifled innovation"
+    ]
+  ],
+  "Economic inefficiency": [
+    [
+      "Higher consumer prices",
+      "Reduced market competition"
+    ]
+  ],
+  "Global trade tensions": [
+    [
+      "Increased consumer prices",
+      "Supply chain disruptions"
+    ]
+  ],
+  "Domestic market complacency": [
+    [
+      "Reduced global competitiveness",
+      "Innovation stagnation"
+    ]
+  ],
+  "Innovation stagnation": [
+    [
+      "Economic decline",
+      "Competitive disadvantage"
+    ]
+  ],
+  "Limited market access": [
+    [
+      "Reduced consumer choice",
+      "Decreased economic growth"
+    ]
+  ],
+  "Economic growth slowdown": [
+    [
+      "Increased unemployment rates",
+      "Reduced consumer spending"
+    ]
+  ],
+  "Reduced export competitiveness": [
+    [
+      "Job losses",
+      "Economic downturn"
+    ]
+  ],
+  "Reduced consumer spending": [
+    []
+  ],
+  "Lower economic growth": [
+    []
+  ],
+  "Export market loss": [
+    []
+  ],
+  "Increased production costs": [
+    []
+  ],
+  "Delayed product deliveries": [
+    []
+  ],
+  "Consumer dissatisfaction": [
+    []
+  ],
+  "Stifled innovation": [
+    []
+  ],
+  "Higher consumer prices": [
+    []
+  ],
+  "Reduced market competition": [
+    []
+  ],
+  "Reduced global competitiveness": [
+    []
+  ],
+  "Economic decline": [
+    []
+  ],
+  "Competitive disadvantage": [
+    []
+  ],
+  "Reduced consumer choice": [
+    []
+  ],
+  "Decreased economic growth": [
+    []
+  ],
+  "Delayed product availability": [
+    []
+  ],
+  "Increased unemployment rates": [
+    []
+  ],
+  "Job losses": [
+    []
+  ],
+  "Economic downturn": [
+    []
+  ]
+}

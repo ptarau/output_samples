@@ -1,0 +1,40 @@
+% CLAUSES:
+'tariffs are good' :-
+    'tariffs add jobs',
+    'tariffs balance budget'.
+'tariffs add jobs' :-
+    'Domestic manufacturing incentives'.
+'tariffs add jobs' :-
+    'Export market expansion'.
+'tariffs balance budget' :-
+    'Trade policy adjustments'.
+'tariffs balance budget' :-
+    'Import tax strategies'.
+'Domestic manufacturing incentives' :-
+    'Tax reduction policies',
+    'Infrastructure investment',
+    'Workforce training programs',
+    'Research and development grants'.
+'Export market expansion' :-
+    'Trade agreement negotiations',
+    'Export incentive programs'.
+'Trade policy adjustments' :-
+    'Comprehensive tariff analysis',
+    'Strategic import restrictions',
+    'Domestic industry incentives',
+    'International trade negotiations'.
+'Import tax strategies' :-
+    'Trade policy reform',
+    'Revenue allocation plan'.
+'Tax reduction policies'.
+'Infrastructure investment'.
+'Workforce training programs'.
+'Research and development grants'.
+'Trade agreement negotiations'.
+'Export incentive programs'.
+'Comprehensive tariff analysis'.
+'Strategic import restrictions'.
+'Domestic industry incentives'.
+'International trade negotiations'.
+'Trade policy reform'.
+'Revenue allocation plan'.

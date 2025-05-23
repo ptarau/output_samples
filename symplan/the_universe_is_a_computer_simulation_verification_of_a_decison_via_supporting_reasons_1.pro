@@ -1,0 +1,70 @@
+% CLAUSES:
+'the universe is a computer simulation' :-
+    'its key parameters are perfectly adjusted',
+    'we can already emulate physics realistically in video games'.
+'the universe is a computer simulation' :-
+    'in the future enough computational power will be available to simulate us as ancestors'.
+'its key parameters are perfectly adjusted' :-
+    'Precise parameter calibration'.
+'its key parameters are perfectly adjusted' :-
+    'Optimal variable tuning'.
+'we can already emulate physics realistically in video games' :-
+    'Advanced physics engines'.
+'we can already emulate physics realistically in video games' :-
+    'Real-time simulation algorithms'.
+'in the future enough computational power will be available to simulate us as ancestors' :-
+    'Quantum computing advancements'.
+'in the future enough computational power will be available to simulate us as ancestors' :-
+    'Exponential technological growth'.
+'Precise parameter calibration' :-
+    'Algorithmic parameter tuning',
+    'Quantum state analysis',
+    'Simulation model refinement',
+    'Computational precision enhancement'.
+'Optimal variable tuning' :-
+    'Parameter calibration techniques',
+    'Simulation accuracy enhancement',
+    'Algorithmic precision improvement',
+    'Computational model refinement'.
+'Advanced physics engines' :-
+    'Enhanced computational algorithms',
+    'Real-time rendering techniques',
+    'Quantum computing integration',
+    'High-fidelity simulation models'.
+'Real-time simulation algorithms' :-
+    'Advanced computational models',
+    'Quantum computing integration',
+    'High-fidelity rendering techniques',
+    'Efficient data processing'.
+'Quantum computing advancements' :-
+    'Quantum algorithm development',
+    'Scalable qubit architecture',
+    'Error correction techniques',
+    'Quantum hardware optimization'.
+'Exponential technological growth' :-
+    'Quantum computing advancements',
+    'Artificial intelligence breakthroughs',
+    'Nanotechnology innovations',
+    'Energy efficiency improvements'.
+'Algorithmic parameter tuning'.
+'Quantum state analysis'.
+'Simulation model refinement'.
+'Computational precision enhancement'.
+'Parameter calibration techniques'.
+'Simulation accuracy enhancement'.
+'Algorithmic precision improvement'.
+'Computational model refinement'.
+'Enhanced computational algorithms'.
+'Real-time rendering techniques'.
+'Quantum computing integration'.
+'High-fidelity simulation models'.
+'Advanced computational models'.
+'High-fidelity rendering techniques'.
+'Efficient data processing'.
+'Quantum algorithm development'.
+'Scalable qubit architecture'.
+'Error correction techniques'.
+'Quantum hardware optimization'.
+'Artificial intelligence breakthroughs'.
+'Nanotechnology innovations'.
+'Energy efficiency improvements'.
